@@ -13,16 +13,15 @@
 
 ## Work
 
-1. **Update the API key in `WeatherAPI.java`.**
+1. Update the API key in `WeatherAPI.java`.
 2. Review the Settings screen in the Design view of `Lab6.java` and find how to change the view from the main screen to the settings screen.
 3. `PreferenceObserver` is defined as an interface. It is implemented by the `Lab6` class, which overrides `preferenceChanged()`. 
-4. **Complete the body of `preferenceChanged()` in the `Lab6` class.**
+4. Complete the body of `preferenceChanged()` in the `Lab6` class.**
 5. The `Preferences` class is defined with the singleton design pattern to make sure that there is only one instance of `Preferences`. It includes `registerObserver()` to register an observer and `unregisterObserver()` to unregister an observer.
 6. The `Preferences` class also defines `notifyPreferenceChanged()`, which is called by `setCity()` and `setUnits()`. 
-
-    ![](Lab6_files/Class_Diagram.jpg)
-
 7. **Complete the body of the `notifyPreferenceChanged()` method in the `Preferences` class.**
+
+![](Lab6_files/Class_Diagram.jpg)
 
 ---
 End of Lab6
