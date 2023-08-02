@@ -20,7 +20,7 @@
 5. The `Preferences` class is defined with the singleton design pattern to make sure that there is only one instance of `Preferences`. It includes `registerObserver()` to register an observer and `unregisterObserver()` to unregister an observer.
 6. The `Preferences` class also defines `notifyPreferenceChanged()`, which is called by `setCity()` and `setUnits()`. 
 
-![](Lab6_files/Class_Diagram.jpg)
+    ![](Lab6_files/Class_Diagram.jpg)
 
 7. **Complete the body of the `notifyPreferenceChanged()` method in the `Preferences` class.**
 
